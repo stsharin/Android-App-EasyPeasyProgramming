@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1"
+    tools:context=".Tutorial">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="15dp"
+                android:text="@string/tutorials_details"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#f5f1f9"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/tutorialspoint"
+                />
+
+            <TextView
+                android:id="@+id/tv_tutorialsPoint"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="TutorialsPoint.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/javatpoint" />
+
+            <TextView
+                android:id="@+id/tv_javatpoint"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="JavaTpoint.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/w32" />
+
+            <TextView
+                android:id="@+id/tv_w3"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="W3schools.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/programiz" />
+
+            <TextView
+                android:id="@+id/tv_programiz"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="Programiz.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

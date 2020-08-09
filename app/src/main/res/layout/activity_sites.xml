@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1"
+    tools:context=".Sites">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="173dp"
+                android:layout_margin="15dp"
+                android:text="@string/sites"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#f5f1f9"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/st"
+                />
+
+            <TextView
+                android:id="@+id/tv_stackoverflow"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="StakOverflow.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/gg2"
+                />
+
+            <TextView
+                android:id="@+id/tv_greek"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="GeeksforGeeks.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/quora"
+                />
+
+            <TextView
+                android:id="@+id/tv_quora"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="Quora.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

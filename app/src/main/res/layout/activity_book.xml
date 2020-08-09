@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home1"
+    tools:context=".Book">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:padding="10dp"
+        android:text="Choose Programming Language"
+        android:textAlignment="center"
+        android:textColor="#f5f1f9"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:background="#37CCDF"
+        android:text="C"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:layout_constraintVertical_bias="0.392" />
+
+
+    <Button
+        android:id="@+id/btn_python"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0B419E"
+        android:text="Python"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <Button
+        android:id="@+id/btn_java"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ff5719"
+        android:text="Java"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <Button
+        android:id="@+id/btn_cpp"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:background="#63DD1B"
+        android:text="C++"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <Button
+        android:id="@+id/btn_kotlin"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:background="#7547A3"
+        android:text="Kotlin"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:layout_constraintVertical_bias="0.392" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1"
+    tools:context=".Video">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_margin="15dp"
+                android:text="@string/video"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#f5f1f9"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/udd" />
+
+            <TextView
+                android:id="@+id/tv_udemy"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="Udemy.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/crss"
+                />
+
+            <TextView
+                android:id="@+id/tv_coursera"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="Coursera.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/udt"
+                />
+
+            <TextView
+                android:id="@+id/tv_udacity"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="Udacity.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edx_logo"
+                />
+
+            <TextView
+                android:id="@+id/tv_edx"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:text="edX.com"
+                android:textColor="#00cc00"
+                android:textIsSelectable="true"
+                android:textStyle="italic"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

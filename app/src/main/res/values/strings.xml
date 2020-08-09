@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EasyPeasy Programming</string>
+    <string name="tutorials_details">Go to the link and choose what you want to learn.</string>
+    <string name="sites">Some popular helpful sites for Computer Greeks. You can ask any question here and the Developers
+        or the knowledgable person will give your answer.
+    </string>
+
+    <string name="ide">IDE direct download link</string>
+
+    <string name="video">Check out these links for Video tutorials</string>
+
+    <string name="about">This app is developed for the beginner pogrammers who want to start their programming career
+        but found many obstacles in their way of learning. This app\'s purpose is to make their way easier. They can easily find the learning sites and learn effectively.
+        \n\nThe app is developed by <b>Saraban Tasnim Sharin</b>,
+        student of Department of Computer Science and Engineering, Daffodil International University.
+        \n\n
+        Email: saraban15-9660@diu.edu.bd \n
+        ID: 172-15-9660 \n
+    </string>
+
+    <string name="about_me">Email: saraban15-9660@diu.edu.bd \n
+        ID: 172-15-9660 \n
+    </string>
+
+    <string name="tutorialspoint"><u>TutorialsPoint.com</u></string>
+
+
+</resources>

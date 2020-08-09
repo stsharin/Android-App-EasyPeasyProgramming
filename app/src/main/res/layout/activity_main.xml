@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="EasyPeasy Programming"
+        android:textAlignment="center"
+        android:textColor="#FCFAFA"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:src="@drawable/logofinal2" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Programming Language Books"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+        <Button
+            android:id="@+id/btn_tutorials"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Tutorials"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Video Tutorials"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+        <Button
+            android:id="@+id/btn_ide"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="IDE"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+        <Button
+            android:id="@+id/btn_sites"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Helpful Sites"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="337dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="About"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
